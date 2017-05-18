@@ -12,4 +12,9 @@ func main() {
     for j:=7; j<=9; j++ {
         fmt.Println(j)
     }
+
+    for {
+        fmt.Println("loop")
+        break
+    }
 }
